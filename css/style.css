@@ -214,7 +214,9 @@ body {
       @media only screen and (max-width: 37.5em) {
         .header-main img {
           width: 85%;
-          padding: 0; } }
+          padding: 0;
+          transform: translateY(-6rem);
+          margin-bottom: -6rem; } }
   .header-text {
     height: 100%;
     display: flex;
