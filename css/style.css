@@ -213,7 +213,8 @@ body {
           order: -1; } }
       @media only screen and (max-width: 37.5em) {
         .header-main img {
-          width: 85%; } }
+          width: 85%;
+          padding: 0; } }
   .header-text {
     height: 100%;
     display: flex;
@@ -225,7 +226,9 @@ body {
     @media only screen and (max-width: 47em) {
       .header-text {
         padding: 0;
-        justify-self: flex-end; } }
+        justify-self: flex-end;
+        justify-content: space-between;
+        flex: 1; } }
     .header-text-box {
       display: flex;
       flex-direction: column;

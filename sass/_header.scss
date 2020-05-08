@@ -85,7 +85,7 @@
             padding: 5rem;
             @media only screen and (max-width:$bp-large) {padding:5rem 0 ;}
             @media only screen and (max-width:$bp-medium) {padding:0 5rem 0 0;width: 60%; align-self: flex-end; order: -1;}
-            @media only screen and (max-width:$bp-small) {width: 85%;}
+            @media only screen and (max-width:$bp-small) {width: 85%; padding:0;}
         }
     }
     &-text{
@@ -96,7 +96,7 @@
         padding-left: 3%;
         padding-top: 7%;
         z-index: 10;
-        @media only screen and (max-width:$bp-medium) {padding: 0; justify-self: flex-end;}
+        @media only screen and (max-width:$bp-medium) {padding: 0; justify-self: flex-end;justify-content: space-between;  flex: 1;}
         &-box{
             display: flex;
             flex-direction: column;
