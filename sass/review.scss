@@ -1,11 +1,15 @@
 .review{
     grid-column: 3/11;
     grid-row: 4/5;
-    padding: 13rem 4rem 23rem 4rem;
+    padding: 13rem 2rem 23rem 2rem;
+    @media only screen and (max-width:$bp-largest) {grid-column: 2/12; padding: 9rem 0 23rem 0; }
+    @media only screen and (max-width:$bp-large) {grid-column: 1/-1; padding: 9rem 2rem 23rem 2rem;}
+    @media only screen and (max-width:$bp-small) {padding-bottom: 15rem;}
     &s{
         display: flex;
         justify-content: space-between;
         margin: 7rem 0;
+        @media only screen and (max-width:$bp-small) {flex-direction: column; align-items: center;}
     }
     
     img{
@@ -24,6 +28,7 @@
         background-color: $color-primary-medium;
         box-shadow: $shadow-lighter;
         border: 2px solid $color-primary;
+        @media only screen and (max-width:$bp-small) {width: 80%; &:not(last-child){margin-bottom: 5rem;} min-height: 22rem;}
     }
     &-top{
         display: flex;

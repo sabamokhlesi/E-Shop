@@ -2,6 +2,8 @@
     grid-row: 2/3;
     grid-column: 3/11;
     padding: 10rem 0;
+    @media only screen and (max-width:$bp-medium) {grid-column: 2/12;}
+    @media only screen and (max-width:$bp-small) {grid-column: 1/-1; padding: 8rem 3rem;}
 }
 
 .step{
@@ -9,9 +11,19 @@
     align-items: center;
     justify-content: space-between;
     padding: 3rem 0;
-    &-img{width: 40%;}
-    &-text{width: 45%;}
-    &-2{img{width: 48%;}}
+    @media only screen and (max-width:$bp-smaller) {flex-direction: column-reverse; text-align: center; padding:0;}
+    &-img{width: 40%; @media only screen and (max-width:$bp-smaller) {width: 70%; margin-top: 2.5rem;}}
+    &-text{
+        width: 45%; 
+        @media only screen and (max-width:$bp-small) {width:50%;}
+        @media only screen and (max-width:$bp-smaller) {width: 95%;}
+    }
+    &-2{
+        img{
+            width: 48%;
+            @media only screen and (max-width:$bp-smaller) {width: 80%; order: -1; transform: translateY(-2.5rem);}
+        }
+    }
     span{ display: none;}
     button{
         transition: all .2s;
