@@ -208,13 +208,12 @@ body {
       @media only screen and (max-width: 47em) {
         .header-main img {
           padding: 0 5rem 0 0;
-          width: 50%;
+          width: 60%;
           align-self: flex-end;
-          transform: scale(1.4);
           order: -1; } }
       @media only screen and (max-width: 37.5em) {
         .header-main img {
-          transform: scale(1.6) translateY(2rem); } }
+          width: 85%; } }
   .header-text {
     height: 100%;
     display: flex;
