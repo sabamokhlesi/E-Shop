@@ -80,7 +80,7 @@
             padding: 5rem;
             @media only screen and (max-width:$bp-large) {padding:5rem 0 ;}
             @media only screen and (max-width:$bp-medium) {padding:0 5rem 0 0;width: 50%; align-self: flex-end; transform: scale(1.4); order: -1;}
-            @media only screen and (max-width:$bp-small) {transform: scale(1.6) translateY(4rem); }
+            @media only screen and (max-width:$bp-small) {transform: scale(1.6) translateY(2rem); }
         }
     }
     &-text{

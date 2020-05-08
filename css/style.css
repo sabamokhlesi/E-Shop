@@ -208,7 +208,7 @@ body {
           order: -1; } }
       @media only screen and (max-width: 37.5em) {
         .header-main img {
-          transform: scale(1.6) translateY(4rem); } }
+          transform: scale(1.6) translateY(2rem); } }
   .header-text {
     height: 100%;
     display: flex;
