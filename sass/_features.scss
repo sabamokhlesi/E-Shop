@@ -1,0 +1,27 @@
+.features{
+    grid-column: 2/12;
+    grid-row: 3/4;
+    background-color: $color-primary;
+    border-radius: 30px;
+    margin-bottom: 6rem;
+    padding: 4rem;
+    padding-bottom: 0;
+    &-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row: repeat(2,1fr);
+        align-items: top;
+        justify-items: center;
+        img{
+            width: 140%;
+            grid-area: 2/2/3/3;
+            padding-bottom: 17rem;
+            transform: translateY(7rem) translateX(-2rem);
+        }
+    }
+    &-text{
+        width: 80%;
+        padding-top: 10rem;
+        i{color: $color-secondary; font-size: 3rem;}
+    } 
+}

@@ -1,0 +1,41 @@
+.review{
+    grid-column: 3/11;
+    grid-row: 4/5;
+    padding: 13rem 4rem 23rem 4rem;
+    &s{
+        display: flex;
+        justify-content: space-between;
+        margin: 7rem 0;
+    }
+    
+    img{
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 50%;
+    }
+    &-box{
+        padding: 2rem 3rem;
+        border-radius: 10px;
+        width: 23%;
+        min-height: 37rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: $color-primary-medium;
+        box-shadow: $shadow-lighter;
+        border: 2px solid $color-primary;
+    }
+    &-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem 2rem 1rem;
+    }
+    &-rate{
+        display: flex;
+        color: $color-secondary;
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+}
+
