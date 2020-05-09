@@ -108,7 +108,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem; }
+    padding: 1rem 3rem;
+    z-index: 100; }
     .header-top-right {
       display: flex;
       align-items: center; }
@@ -215,8 +216,8 @@ body {
         .header-main img {
           width: 85%;
           padding: 0;
-          transform: translateY(-6rem);
-          margin-bottom: -6rem; } }
+          transform: translateY(-5rem);
+          margin-bottom: -5rem; } }
   .header-text {
     height: 100%;
     display: flex;
